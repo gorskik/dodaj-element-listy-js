@@ -1,6 +1,6 @@
 function addItem() {
             const list = document.getElementById('items');
-            const currentItemsCount = list.getElementsByTagName('li').length;
+            const currentItemsCount = document.getElementsByTagName('li').length;
 
             const newItem = document.createElement('li');
             newItem.classList.add('item');
